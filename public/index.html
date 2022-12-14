@@ -2,42 +2,70 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="icon" href="/images/icon.PNG" type="image/png" sizes="16x16">
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    name="viewport">
+  <title>Gift For My Love</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js"></script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="cover">
+      <audio id="audio" src="./media/onlylove_final.mp3" loop="loop"></audio>
+      <div id="dialogBox" class="ak" style="font-size:15px;">
+        # GỬI NHỮNG LỜI YÊU THƯƠNG ĐẾN CÔ GÁI MỎ CÀY BẮC CỦA ANH #
+        <br />
+        <br /> Chúc bé cả 365 ngày hạnh phúc, ngọt ngào và hãy luôn mỉm cười
+        nhé.
+        <br /> Giữ mãi nụ cười trên môi và cùng anh xây dựng một tình yêu thật
+        đẹp nhé.
+        <br /> Luôn tràn ngập niềm vui mỗi ngày.
+        <br /> Yêu thương bản thân nhiều hơn nữa.
+        <br /> Cuối cùng là chúc bé có một chuyến đi thật nhiều niềm vui nhé.
+        <br />
+        <br />
+        From Hateful guy with a Huge Love
+        <br />
+        <br />
+        BD 20-10-2022
+        <br />
+        <img
+          id="imgB"
+          src="./images/closebutton2.png"
+          height="30"
+          width="30"
+          onclick="bk();"
+        />
+      </div>
+    </div>
+    <div class="container-fluid">
+      <br />
+      <br />
+      <div id="circle" onclick="ak();">
+        <div id="gift">
+          <div id="ribbon"></div>
+          <div id="giftbox"></div>
+        </div>
+      </div>
+      <h1
+        class="red-text ak"
+        style="text-align:center;font-weight:normal;font-size:4vw;"
+      >
+        Happy Vietnamese Women’s Day!
+      </h1>
+      <h3
+        class=""
+        style="position:fixed;bottom:20px;margin:auto;right:30px;text-align:center;color:#FEFCD7;font-size:18px; text-shadow:#FEFCD7 0 0 30px, #FEFCD7 1px 0 1px;"
+      >
+        From : Hateful Guy
+      </h3>
+      <br />
+      <br />
+    </div>
+    <footer class="footer footer-inverse" style=" margin-bottom: 0;">
+      <div class="container"></div>
+    </footer>
+    <script src="./javascripts/fireworks.js"></script>
   </body>
 </html>
